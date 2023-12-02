@@ -1,3 +1,9 @@
+import Counter from '@/components/counter/components/counter';
+
 export default function Page() {
-  return <div className="border-1 bg-rose-700 font-bold text-red-400 " />;
+  return (
+    <div className="h-screen flex justify-center items-center">
+      <Counter />
+    </div>
+  );
 }
