@@ -10,6 +10,8 @@ const buttonStyle = tv({
       primary: 'bg-primary-600 text-primary-50 hover:bg-primary-700 active:bg-primary-800 ',
       secondary:
         'bg-secondary-100 text-secondary-700 hover:bg-secondary-200 active:bg-secondary-300',
+      danger: 'bg-red-500 text-zinc-50 hover:bg-red-600',
+      outline: 'bg-transparent border border-primary-600 text-primary-600',
     },
     size: {
       sm: 'py-1 px-2 text-sm',
