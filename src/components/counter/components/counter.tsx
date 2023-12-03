@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button';
 export default function Counter() {
   const [counter, setCounter] = useState<number>(0);
   const { data: session } = useSession();
-
   return (
     <div className="flex flex-col items-center gap-4">
       <div className="flex gap-4">
